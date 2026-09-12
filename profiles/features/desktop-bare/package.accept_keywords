@@ -1,0 +1,52 @@
+# 0ad
+net-libs/gloox
+dev-util/premake:5
+
+#net-im/signal-desktop-bin
+
+app-shells/rc
+
+games-emulation/ppsspp
+games-util/game-device-udev-rules
+
+app-misc/radeontop
+
+net-misc/gallery-dl
+
+games-misc/lolcat
+dev-ruby/paint
+media-video/obs-studio
+
+#dev
+net-p2p/go-ethereum
+
+#work
+net-im/zoom
+
+media-video/jellyfin-media-player
+media-video/jellyfin-web-jmp-bin
+media-video/jellyfin-web-bin
+
+games-simulation/openttd
+	games-misc/openmsx
+	games-misc/opensfx
+	games-misc/opengfx
+	games-util/grfcodec
+
+games-action/multimc-bin
+
+dev-util/scanmem
+
+
+# =gui-apps/grim-1.4.0-r1 is bugged
+=gui-apps/grim-1.4.0-r3
+#openttd
+=games-util/catcodec-1.0.5
+=games-util/nml-0.7.1
+
+
+games-util/lutris
+dev-python/moddb
+dev-python/pypresence
+
+net-wireless/bluetui

@@ -1,0 +1,98 @@
+#system
+sys-apps/openrc					sysv-utils
+sys-apps/util-linux				-suid udev tty-helpers
+sys-firmware/intel-microcode	initramfs
+sys-kernel/gentoo-sources		symlink
+sys-fs/lvm2						-thin lvm
+sys-apps/fwupd					minimal nvme uefi -systemd -introspection -elogind
+net-mail/mailutils				-pam -ssl -sasl
+net-misc/spice-gtk				usbredir
+net-vpn/wireguard-tools			-wg-quick
+sys-process/procps				-elogind -nls
+net-nds/openldap				minimal
+sys-apps/util-linux				udev
+#net-mail/isync					sasl
+sys-power/s-tui					stress
+sys-kernel/gentoo-kernel-bin	initramfs
+sys-kernel/installkernel		dracut
+sys-apps/systemd-utils			boot kernel-install
+
+
+#libvirt
+app-emulation/libvirt			virt-network nfs bash-completion
+app-emulation/qemu				usb usbredir virtfs nfs spice -multipath
+sys-boot/grub					device-mapper
+net-dns/dnsmasq					script
+net-misc/spice-gtk				usbredir
+dev-vcs/git						-pcre -perl
+#sys-devel/gcc					lto go fortran
+app-containers/containerd		btrfs -device-mapper
+app-containers/docker			btrfs -overlay
+app-emulation/libguestfs		-ocaml 
+app-containers/podman			-fuse btrfs
+sys-block/fio					aio curl
+net-libs/gnutls					pkcs11 tools -zstd
+
+
+#k8s
+app-containers/cri-o btrfs supervise-daemon
+sys-cluster/kubelet supervise-daemon
+
+
+#cli
+net-misc/curl adns -ssh -nghttp3
+mail-client/mutt mbox berkdb gpgme -lmdb 
+
+
+net-p2p/transmission	cli
+
+#server
+sys-cluster/ceph		fuse
+	dev-libs/boost		python
+net-proxy/haproxy		-slz
+
+
+#dev
+app-misc/jq			-oniguruma
+dev-python/numpy	lapack
+#net-libs/nodejs		-snapshot -npm inspector
+dev-lang/mono		minimal
+
+dev-debug/gdb		-lzma -zstd
+
+net-vpn/tor			-lzma -zstd
+
+sys-cluster/minikube	libvirt
+
+
+#issues emerging vm template
+app-text/ghostscript-gpl cups
+
+
+#media-video/ffmpeg	openssl
+media-video/ffmpeg			bluray libcaca openh264 opus twolame lame x264 x265 vorbis jpeg2k mp3 webp vpx vaapi openssl -opengl -opencl -svg -chromium
+
+# required by app-containers/containers-common-0.56.0-r1::gentoo
+# required by app-containers/podman-4.7.2::gentoo
+# required by @system
+# required by @world (argument)
+>=net-firewall/iptables-1.8.9 nftables
+
+
+# required by www-client/chromium-121.0.6167.139::gentoo[system-toolchain]
+dev-lang/rust profiler
+virtual/rust profiler
+
+# required by app-containers/lxd-5.0.2-r3::gentoo
+# required by lxd (argument)
+>=dev-libs/raft-0.19.1 lz4
+# required by app-containers/lxc-5.0.3::gentoo[caps,tools]
+# required by app-containers/lxd-5.0.2-r3::gentoo
+# required by lxd (argument)
+>=sys-libs/libcap-2.69 static-libs
+
+
+# required by app-emulation/FEX-2605::asahi[thunks]
+sys-fs/squashfs-tools zstd
+
+app-admin/eclean-kernel zstd

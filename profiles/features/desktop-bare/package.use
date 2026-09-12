@@ -1,0 +1,205 @@
+#temporary flags
+# required by net-misc/nextcloud-client-3.8.2-r1::gentoo
+# required by @system
+# required by @world (argument)
+>=dev-libs/qtkeychain-0.14.1-r1 qt5 qt6
+
+
+
+#desktop
+gui-apps/swayidle				elogind
+app-admin/pass					-git
+app-admin/pass-otp				-qrcode
+media-libs/freetype				-harfbuzz
+media-libs/sdl2-ttf				-harfbuzz
+media-libs/mesa					d3d9 wayland
+gui-libs/wlroots				lcms
+media-libs/lcms					tiff
+media-libs/tiff					-lzma -zstd
+media-libs/libwebp				-opengl
+media-sound/cmus				-elogind
+media-video/ffmpeg				bluray libcaca openh264 jpeg2k v4l libdrm x264 x265 -chromium
+media-video/mpv					cli archive libmpv -egl 
+net-wireless/wpa_supplicant		gui dbus
+www-client/chromium				hangouts proprietary-codecs -widevine cups ffmpeg-chromium
+
+www-client/w3m					imlib
+x11-base/xorg-server			xephyr -suid -minimal
+x11-drivers/xf86-video-intel	dri
+x11-libs/gtk+					cups wayland
+x11-misc/redshift				-gtk
+x11-terms/rxvt-unicode			perl fading-colors
+x11-themes/gtk-engines-murrine	-themes
+xfce-base/thunar				-pcre -trash-panel-plugin
+sys-auth/elogind				-policykit
+media-sound/pulseaudio			bluetooth
+media-sound/pulseaudio-daemon	bluetooth dbus
+www-client/firefox				eme-free -clang dbus
+net-wireless/lorcon 			python
+media-video/pipewire			extra dbus bluetooth
+net-misc/moonlight				-X
+net-fs/cifs-utils				-acl -ads
+
+
+
+#desktop-gtk
+app-crypt/gcr				gtk
+sys-devel/distcc			gtk
+net-analyzer/ettercap		gtk
+app-emulation/winetricks	gtk
+app-emulation/virt-manager	gui
+app-emulation/qemu			gtk 
+app-crypt/pinentry			gtk qt6
+
+gui-libs/gtk				cups
+dev-qt/qtbase				cups gtk libproxy
+media-sound/mpg123-base		sdl
+
+media-gfx/gimp				-jpeg2k jpegxl mng
+app-text/poppler			-png
+media-libs/gexiv2			vala
+
+#desktop-tools
+app-emulation/qemu				virgl
+app-emulation/wine-vanilla		-ldap -udisks 
+app-office/abiword				spell latex math -goffice -readline -introspection
+app-office/libreoffice			-gtk
+app-text/evince					postscript
+app-text/ghostscript-gpl		cups
+#app-text/mupdf					-opengl -javascript
+net-print/libcupsfilters		dbus tiff
+dev-libs/libjcat				gpg pkcs7
+dev-libs/libpcre2				pcre32
+dev-libs/xmlsec					nss
+dev-python/PyQt5				widgets gui multimedia declarative network printsupport sql webchannel dbus
+dev-qt/qtmultimedia				widgets vaapi -gstreamer
+dev-qt/qtwebsockets				qml
+dev-qt/qtwebchannel				qml
+dev-qt/qtwebengine				widgets
+media-gfx/imagemagick			cxx xml
+media-libs/libpulse				dbus
+media-libs/libvpx				postproc
+media-sound/audacity			id3tag
+media-sound/mpd					-alsa -network
+media-sound/ncmpcpp				taglib visualizer outputs
+media-tv/v4l-utils				-bpf
+media-video/mkvtoolnix			gui
+media-video/obs-studio			v4l
+net-analyzer/hydra				libssh -gtk
+net-im/pidgin					-xscreensaver -dbus -gstreamer
+net-print/cups					usb
+net-print/cups-filters			jpeg png pdf
+net-print/gutenprint			cups ppds -readline
+net-print/hplip					hpijs minimal -X -snmp
+sci-mathematics/octave			gnuplot
+sys-apps/hwloc					cairo
+sys-libs/zlib					minizip
+media-libs/libsdl2				haptic 
+# required by app-misc/moonlight-4.3.1::evgr
+media-libs/libsdl2 kms
+
+
+sci-astronomy/stellarium 	qt6
+sci-astronomy/calcmysky		qt6
+dev-libs/qxlsx				qt6
+
+
+#gms
+games-simulation/openttd -icu -timidity -fluidsynth
+games-roguelike/cataclysm-dda xdg sdl sound -nls
+games-fps/gzdoom -non-free
+
+
+#trash
+dev-ruby/bundler	-doc
+
+#dev-libs/boost		context python
+dev-libs/boost		context -python -lzma -zstd
+
+
+
+# required by net-misc/curl-8.5.0-r3::gentoo[psl]
+# required by www-client/chromium-121.0.6167.184::gentoo
+# required by @system
+# required by @world (argument)
+>=net-libs/libpsl-0.21.2 abi_x86_32
+
+dev-lang/rust abi_x86_32
+
+# required by x11-libs/pango-1.57.0::gentoo
+# required by gui-libs/libdecor-0.2.3::gentoo
+# required by media-libs/libsdl2-2.32.6::gentoo
+# required by app-emulation/wine-vanilla-10.0-r2::gentoo[sdl]
+# required by virtual/wine-0-r11::gentoo
+# required by @system
+# required by @world (argument)
+>=media-libs/freetype-2.14.1-r1 harfbuzz
+# required by net-misc/nextcloud-client-3.16.6::gentoo
+# required by @system
+# required by @world (argument)
+>=dev-qt/qt5compat-6.9.3 qml
+
+# required by media-libs/gegl-0.4.64-r1::gentoo
+# required by media-gfx/gimp-3.0.6::gentoo
+# required by @system
+# required by @world (argument)
+>=media-libs/babl-0.1.116 introspection lcms
+# required by media-gfx/gimp-3.0.6::gentoo
+# required by @system
+# required by @world (argument)
+>=media-libs/gegl-0.4.64-r1 introspection lcms
+
+# required by dev-embedded/u-boot-tools-2025.01-r1::gentoo
+# required by @system
+# required by @world (argument)
+sys-apps/dtc python
+
+# required by www-client/chromium-145.0.7632.109::gentoo[llvm_slot_21,-bundled-toolchain]
+# required by @system
+# required by @world (argument)
+>=dev-lang/rust-1.92.0_p1-r1 rustfmt
+
+dev-qt/qtbase dbus
+dev-qt/qttools qml
+kde-frameworks/kguiaddons dbus
+
+gnome-base/librsvg vala
+
+#x11-misc/i3status -pulseaudio
+sys-apps/asahi-meta sound
+media-video/pipewire lv2 sound-server
+
+net-print/cups -X -usb
+www-client/w3m -imlib
+x11-libs/gtk+ -vim-syntax
+gui-libs/libdecor dbus
+
+media-plugins/alsa-plugins	-ffmpeg
+media-libs/libjxl			gif
+media-libs/jasper			-jpeg -opengl
+media-libs/gegl				-ffmpeg -jpeg2k sdl tiff
+
+sys-process/procps				-elogind -nls
+net-analyzer/wireshark			-opus
+dev-lang/swig					pcre
+app-emulation/spice				-opus
+app-text/gspell					vala
+app-crypt/gcr					-vala
+dev-libs/botan					-lzma
+media-libs/imlib2				-jpegxl
+sys-libs/slang					pcre
+
+
+# freecad
+#
+# required by media-gfx/freecad-1.1.1::gentoo
+# required by =media-gfx/freecad-1.1.1 (argument)
+sci-libs/opencascade json
+# required by media-gfx/freecad-1.1.1::gentoo[gui,python_single_target_python3_14]
+# required by =media-gfx/freecad-1.1.1 (argument)
+dev-python/pyside uitools
+# required by virtual/imagemagick-tools-1::gentoo
+# required by dev-python/matplotlib-3.10.9::gentoo
+# required by media-gfx/freecad-1.1.1::gentoo[gui,python_single_target_python3_14]
+# required by =media-gfx/freecad-1.1.1 (argument)
+media-gfx/imagemagick tiff

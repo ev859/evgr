@@ -1,0 +1,5 @@
+evgr:arm64/pinebook-pro-bare
+evgr:features/desktop-bare
+evgr:features/desktop-main
+evgr:features/desktop-wayland
+

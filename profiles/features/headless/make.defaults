@@ -1,0 +1,4 @@
+USE="${USE} "
+
+USE="${USE} -X -gui -wayland -introspection"
+ 

@@ -1,0 +1,237 @@
+sys-apps/inxi ~arm64
+dev-libs/criterion ~arm64
+        dev-libs/nanomsg ~arm64
+        dev-libs/boxfort ~arm64
+net-analyzer/speedtest-cli ~arm64
+
+
+app-emulation/diskimage-builder ~arm64
+app-office/abiword ~arm64
+dev-python/python-ironicclient ~arm64
+dev-python/python-openstachclient ~arm64
+	#dev-python/osc-lib ~arm64
+	dev-python/python-keystoneclient ~arm64
+	dev-python/python-novaclient ~arm64
+	dev-python/python-cinderclient ~arm64
+	dev-python/regex ~arm64
+gui-apps/grim ~arm64
+mail-client/mutt ~arm64
+media-gfx/feh ~arm64
+media-gfx/scrot ~arm64
+media-sound/cmus ~arm64
+media-sound/pavucontrol ~arm64
+media-sound/pulsemixer ~arm64
+media-video/mpv ~arm64
+net-dialup/picocom ~arm64
+net-im/signal-desktop-bin ~arm64
+sys-apps/firejail ~arm64
+sys-cluster/kubectl ~arm64
+sys-power/powertop ~arm64
+x11-misc/i3status ~arm64
+x11-terms/rxvt-unicode ~arm64
+x11-themes/numix-icon-theme ~arm64
+x11-themes/numix-gtk-theme ~arm64
+xfce-extra/thunar-archive-plugin ~arm64
+xfce-extra/thunar-media-tags-plugin **
+x11-themes/gtk-engines-murrine ~arm64
+dev-go/go-bindata ~arm64
+dev-libs/libdispatch ~arm64
+x11-misc/xss-lock ~arm64
+# telegram-desktop
+	media-fonts/open-sans ~arm64
+	media-libs/libtgvoip ~arm64
+	media-libs/rnnoise ~arm64
+	media-libs/tg_owt ~arm64
+	dev-cpp/range-v3 ~arm64
+	dev-cpp/ms-gsl ~arm64
+
+app-emulation/libvirt ~arm64
+
+app-emulation/virt-manager ~arm64
+	app-emulation/libvirt-glib ~arm64
+	dev-python/libvirt-python ~arm64
+dev-python/setuptools-rust ~arm64
+
+=net-wireless/bluetui-0.8.1 **
+
+www-client/chromium:stable ~arm64
+app-arch/pxz ~arm64
+app-misc/srm ~arm64
+app-shells/rc **
+net-analyzer/speedtest-cli ~arm64
+dev-lang/mono ~arm64
+dev-lang/tcc ~arm64
+media-gfx/mcomix ~arm64
+media-gfx/ristretto ~arm64
+
+media-sound/audacity ~arm64
+media-libs/libsoundtouch ~arm64
+media-libs/portsmf ~arm64
+media-libs/suil ~arm64
+
+net-misc/tigervnc ~arm64
+sys-block/fio ~arm64
+
+
+x11-misc/i3lock ~arm64
+x11-misc/xautolock ~arm64
+x11-wm/i3 ~arm64
+	dev-perl/AnyEvent-I3 ~arm64
+	dev-libs/libptytty ~arm64
+
+app-admin/eclean-kernel ~arm64
+	dev-python/pymountboot ~arm64
+
+#dev-lang/rust-bin ~arm64
+
+
+net-misc/rclone ~arm64
+
+
+app-office/gnumeric ~arm64
+x11-libs/goffice ~arm64
+
+
+~app-admin/loki-2.8.3 **
+~sys-cluster/keepalived-2.2.8 **
+~sys-cluster/minio-bin-2024.08.03 ~arm64
+~net-analyzer/bmon-4.0 ~arm64
+
+lxde-base/lxappearance ~arm64
+media-video/mkvtoolnix ~arm64
+net-analyzer/nethogs ~arm64
+
+net-news/newsboat ~arm64
+dev-libs/stfl ~arm64
+media-sound/helvum ~arm64
+media-sound/wiremix **
+
+net-misc/moonlight ~arm64
+
+
+app-misc/ranger ~arm64
+x11-misc/xss-lock **
+
+games-strategy/0ad ~arm64
+
+app-benchmarks/stress ~arm64
+
+gui-apps/wev **
+
+<=games-action/prismlauncher-10.0.0 ~arm64
+dev-cpp/tomlplusplus ~arm64
+dev-cpp/gulrak-filesystem ~arm64
+
+net-misc/s3cmd **
+
+sys-apps/earlyoom ~arm64
+app-portage/pycargoebuild ~arm64
+
+# required by app-admin/opentofu (argument)
+=app-admin/opentofu-1.10.6 **
+# required by app-admin/opentofu-1.10.6::gentoo
+# required by app-admin/opentofu (argument)
+=dev-go/gox-1.0.1 ~arm64
+
+app-admin/helm ~arm64
+
+<games-util/lgogdownloader-9999 **
+
+
+# freecad
+#
+# required by media-gfx/freecad-1.1.1::gentoo
+# required by =media-gfx/freecad-1.1.1 (argument)
+sci-libs/opencascade ~arm64
+# required by sci-libs/vtk-9.5.2::gentoo[-minimal]
+# required by media-gfx/freecad-1.1.1::gentoo[-fem,smesh]
+# required by =media-gfx/freecad-1.1.1 (argument)
+media-libs/libharu ~arm64
+# required by media-gfx/freecad-1.1.1::gentoo[smesh]
+# required by =media-gfx/freecad-1.1.1 (argument)
+sci-libs/med **
+# required by media-libs/coin-4.0.6::gentoo
+# required by media-libs/quarter-1.2.3::gentoo
+# required by dev-python/pivy-0.6.10::gentoo[-test,quarter]
+# required by media-gfx/freecad-1.1.1::gentoo[gui,python_single_target_python3_14]
+# required by =media-gfx/freecad-1.1.1 (argument)
+media-libs/simage ~arm64
+# required by dev-python/pivy-0.6.10::gentoo[-test,quarter]
+# required by media-gfx/freecad-1.1.1::gentoo[gui,python_single_target_python3_14]
+# required by =media-gfx/freecad-1.1.1 (argument)
+media-libs/quarter **
+# required by media-gfx/freecad-1.1.1::gentoo[python_single_target_python3_14]
+# required by =media-gfx/freecad-1.1.1 (argument)
+dev-python/pycxx **
+# required by sci-libs/vtk-9.5.2::gentoo
+# required by media-gfx/freecad-1.1.1::gentoo[-fem,smesh]
+# required by =media-gfx/freecad-1.1.1 (argument)
+dev-libs/pegtl ~arm64
+# required by media-gfx/freecad-1.1.1::gentoo[-fem,smesh]
+# required by =media-gfx/freecad-1.1.1 (argument)
+sci-libs/vtk ~arm64
+# required by media-gfx/freecad-1.1.1::gentoo[gui,python_single_target_python3_14]
+# required by =media-gfx/freecad-1.1.1 (argument)
+dev-python/pivy **
+# required by =media-gfx/freecad-1.1.1 (argument)
+=media-gfx/freecad-1.1.1 **
+# required by media-gfx/freecad-1.1.1::gentoo[gui]
+# required by =media-gfx/freecad-1.1.1 (argument)
+media-libs/coin ~arm64
+# required by sci-libs/vtk-9.5.2::gentoo[cgns]
+# required by media-gfx/freecad-1.1.1::gentoo[-fem,smesh]
+# required by =media-gfx/freecad-1.1.1 (argument)
+sci-libs/cgnslib ~arm64
+
+
+# required by sci-ml/caffe2-2.12.0-r2::gentoo
+# required by sci-ml/pytorch-2.12.0::gentoo
+# required by sci-ml/pytorch (argument)
+sci-ml/onnx ~arm64
+# required by dev-libs/sleef-3.9.0::gentoo
+# required by sci-ml/caffe2-2.12.0-r2::gentoo
+# required by sci-ml/pytorch-2.12.0::gentoo
+# required by sci-ml/pytorch (argument)
+dev-cpp/tlfloat ~arm64
+# required by sci-ml/pytorch (argument)
+sci-ml/pytorch ~arm64
+# required by sci-ml/pytorch-2.12.0::gentoo
+# required by sci-ml/pytorch (argument)
+sci-ml/caffe2 ~arm64
+# required by sci-ml/caffe2-2.12.0-r2::gentoo
+# required by sci-ml/pytorch-2.12.0::gentoo
+# required by sci-ml/pytorch (argument)
+dev-libs/pocketfft ~arm64
+# required by sci-ml/caffe2-2.12.0-r2::gentoo
+# required by sci-ml/pytorch-2.12.0::gentoo
+# required by sci-ml/pytorch (argument)
+dev-libs/FXdiv ~arm64
+# required by sci-ml/caffe2-2.12.0-r2::gentoo
+# required by sci-ml/pytorch-2.12.0::gentoo
+# required by sci-ml/pytorch (argument)
+dev-libs/sleef ~arm64
+# required by sci-ml/caffe2-2.12.0-r2::gentoo
+# required by sci-ml/pytorch-2.12.0::gentoo
+# required by sci-ml/pytorch (argument)
+sci-ml/FP16 ~arm64
+# required by sci-ml/caffe2-2.12.0-r2::gentoo
+# required by sci-ml/pytorch-2.12.0::gentoo
+# required by sci-ml/pytorch (argument)
+dev-libs/cpuinfo ~arm64
+
+# required by sci-ml/ollama (argument)
+sci-ml/ollama **
+# required by sci-ml/ollama-0.32.2::gentoo
+# required by sci-ml/ollama (argument)
+sci-ml/ggml ~arm64
+
+# required by =sci-ml/llama-cpp-0_pre10107 (argument)
+sci-ml/llama-cpp ~arm64
+
+=dev-python/python-manilaclient-6.2.0 ~arm64
+# required by =dev-python/python-openstackclient-10.2.1 (argument)
+=dev-python/python-openstackclient-10.2.1 ~arm64
+
+=app-misc/hyfetch-2.0.2 ~arm64
+
+net-misc/ipv6calc **

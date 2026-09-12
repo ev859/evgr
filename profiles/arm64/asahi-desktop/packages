@@ -1,0 +1,71 @@
+#*app-arch/innoextract		# gog games are x86 only
+#*app-admin/pass-otp		# missing arm64 keyword
+-*app-emulation/virt-viewer	# missing arm64 keyword
+#-*www-client/firefox-bin	# missing arm64 keyword
+#-*app-misc/ranger		# missing arm64 keyword
+#-*app-office/gnumeric		# missing arm64 keyword
+#-*app-office/abiword		# probably not needed
+#-*media-sound/mpd		# missing arm64 keyword
+#-*media-sound/ncmpcpp		# missing arm64 keyword
+-*net-analyzer/ettercap		# missing arm64 keyword
+#-*net-analyzer/nethogs		# missing arm64 keyword
+-*net-im/signal-desktop-bin	# missing arm64 keyword
+#-*net-misc/s3cmd		# missing arm64 keyword
+-*sys-apps/btrfs-compsize	# missing arm64 keyword
+-*sys-fs/fuseiso		# missing arm64 keyword
+-*virtual/wine			# missing arm64 keyword
+-*app-emulation/winetricks	# missing arm64 keyword
+-*x11-misc/urxvt-font-size	# missing arm64 keyword
+-*media-video/jellyfin-media-player	# missing arm64 keyword
+-*net-im/discord		# missing arm64 keyword
+-*app-misc/srm 			# missing arm64 keyword
+
+
+-*dev-lisp/sbcl
+-*dev-util/scanmem
+
+-*www-client/firefox
+
+*net-misc/networkmanager
+
+*net-vpn/tailscale
+*x11-apps/mesa-progs
+*mail-client/thunderbird
+-*mail-client/thunderbird-bin
+
+# keep xorg packages for backwards compatibility
+-*media-gfx/scrot
+-*x11-apps/xinput
+-*x11-apps/xkill
+-*x11-apps/xmodmap
+-*x11-apps/xrandr
+-*x11-misc/arandr
+-*x11-misc/i3lock
+-*x11-misc/urxvt-font-size
+-*x11-misc/xautolock
+-*x11-terms/rxvt-unicode
+-*x11-wm/i3
+-*x11-base/xorg-drivers
+-*x11-base/xorg-server
+-*x11-drivers/xf86-input-synaptics
+-*x11-drivers/xf86-input-evdev
+
+#-*www-client/chromium
+-*net-vpn/openvpn
+
+-*virtual/dist-kernel
+-*sys-kernel/gentoo-kernel
+-*sys-kernel/genkernel
+
+-*media-sound/pulseaudio-daemon
+-*media-sound/pulseaudio
+*media-sound/pulsemixer
+*media-video/pipewire
+#*sys-apps/speakersafetyd
+*sys-auth/rtkit
+*media-sound/helvum
+*media-sound/wiremix
+
+*app-emulation/muvm
+*app-emulation/FEX
+*app-emulation/fex-rootfs-gentoo

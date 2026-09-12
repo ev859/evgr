@@ -1,0 +1,11 @@
+*app-emulation/qemu-guest-agent
+*sys-fs/fuse
+*sys-libs/liburing
+-*sys-apps/lm-sensors
+-*sys-apps/usbutils
+-*sys-fs/cryptsetup
+-*sys-fs/lvm2
+-*sys-kernel/linux-firmware
+-*sys-power/acpid
+-*sys-apps/smartmontools
+
