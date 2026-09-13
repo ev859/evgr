@@ -235,3 +235,6 @@ sci-ml/llama-cpp ~arm64
 =app-misc/hyfetch-2.0.2 ~arm64
 
 net-misc/ipv6calc **
+
+<media-libs/mesa-26.3
+<dev-util/mesa_clc-26.3
