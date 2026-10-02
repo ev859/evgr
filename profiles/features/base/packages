@@ -1,4 +1,4 @@
-*acct-user/bss
+#*acct-user/bss
 *app-admin/doas
 *app-admin/logrotate
 *app-admin/spectre-meltdown-checker
@@ -18,7 +18,7 @@
 *net-analyzer/mtr
 *net-firewall/nftables
 *net-misc/ntp
-*sys-apps/bss
+#*sys-apps/bss
 *sys-apps/busybox
 *sys-apps/ed
 *sys-apps/inxi
