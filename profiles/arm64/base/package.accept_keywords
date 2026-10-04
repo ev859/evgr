@@ -98,7 +98,7 @@ x11-libs/goffice ~arm64
 ~net-analyzer/bmon-4.0 ~arm64
 
 lxde-base/lxappearance ~arm64
-~media-video/mkvtoolnix-0.99 ~arm64
+=media-video/mkvtoolnix-0.99 ~arm64
 net-analyzer/nethogs ~arm64
 
 net-news/newsboat ~arm64
