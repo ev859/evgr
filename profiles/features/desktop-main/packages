@@ -95,7 +95,7 @@
 *net-vpn/openvpn
 *sys-boot/woeusb-ng
 *sys-fs/squashfs-tools
-*www-client/chromium
+#*www-client/chromium
 
 *media-video/libva-utils
 
