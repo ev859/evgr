@@ -105,7 +105,7 @@ net-analyzer/nethogs ~arm64
 net-news/newsboat ~arm64
 dev-libs/stfl ~arm64
 media-sound/helvum ~arm64
-media-sound/wiremix **
+~media-sound/wiremix-0.10.0 **
 
 net-misc/moonlight ~arm64
 
@@ -240,3 +240,4 @@ net-misc/ipv6calc **
 <media-libs/mesa-26.3
 <dev-util/mesa_clc-26.3
 
+media-libs/SoQt **
