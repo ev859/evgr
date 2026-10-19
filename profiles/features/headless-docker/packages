@@ -11,7 +11,7 @@
 -*app-portage/gentoolkit
 -*app-portage/portage-utils
 -*net-firewall/nftables
--*net-misc/ntp
+-*net-misc/ntpsec
 -*sys-apps/bss
 -*sys-apps/busybox
 -*sys-apps/inxi

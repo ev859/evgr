@@ -17,7 +17,7 @@
 -*net-analyzer/mtr
 -*net-firewall/nftables
 -*net-misc/iputils
--*net-misc/ntp
+-*net-misc/ntpsec
 -*sys-apps/bss
 -*sys-apps/busybox
 -*sys-apps/ed
