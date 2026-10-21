@@ -81,7 +81,7 @@
 #*dev-java/openjdk-bin:17
 #*dev-java/openjdk-bin:8
 #*net-libs/webkit-gtk:4.1
-*media-gfx/freecad
+#*media-gfx/freecad
 *sys-devel/crossdev
 #*sys-devel/distcc
 *sys-fs/inotify-tools
