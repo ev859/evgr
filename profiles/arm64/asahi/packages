@@ -4,6 +4,10 @@
 *sys-kernel/asahi-kernel
 *sys-apps/asahi-meta
 *virtual/dist-kernel:asahi
+
+*sys-boot/m1n1
+-*sys-boot/m1n1-bin
+
 -*virtual/dist-kernel
 
 -*sys-kernel/gentoo-kernel
