@@ -5,8 +5,8 @@
 *sys-apps/asahi-meta
 *virtual/dist-kernel:asahi
 
-*sys-boot/m1n1
--*sys-boot/m1n1-bin
+*sys-boot/m1n1-bin
+-*sys-boot/m1n1
 
 -*virtual/dist-kernel
 
