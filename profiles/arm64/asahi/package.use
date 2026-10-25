@@ -6,5 +6,5 @@ dev-lang/rust rust-src
 # asahi-meta
 sys-kernel/installkernel dracut
 
-sys-apps/asahi-meta -mesa -sound
+sys-apps/asahi-meta -mesa -sound -vaapi -v4l
 
