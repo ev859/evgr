@@ -4,7 +4,7 @@
 *net-fs/nfs-utils
 *net-misc/dhcpcd
 *net-wireless/wpa_supplicant
-*sys-block/usb-nvme-JMicron583-discard
+#*sys-block/usb-nvme-JMicron583-discard
 *sys-fs/cryptsetup
 *sys-fs/fuse
 *sys-fs/fuse:0
