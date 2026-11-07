@@ -77,6 +77,12 @@ media-video/ffmpeg			bluray libcaca openh264 opus twolame lame x264 x265 vorbis 
 # required by @system
 # required by @world (argument)
 >=net-firewall/iptables-1.8.9 nftables
+# required by app-containers/netavark-2.1.0::gentoo
+# required by app-containers/container-libs-0.70.0::gentoo[extra]
+# required by app-containers/podman-6.1.4::gentoo
+# required by @system
+# required by @world (argument)
+>=net-firewall/nftables-1.1.7 json
 
 
 # required by www-client/chromium-121.0.6167.139::gentoo[system-toolchain]
